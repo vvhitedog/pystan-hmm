@@ -98,7 +98,7 @@ generated quantities {
 # create model
 sm = StanModel_cache(model_code=hmm_code)
 
-hmm_data = np.load('hmm_data3.npz')
+hmm_data = np.load('hmm_data3-1.npz')
 hmm_data2 = np.load('hmm_data3-2.npz')
 
 K = 3
